@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS user_profiles (
+  user_id TEXT PRIMARY KEY,
+  email TEXT NOT NULL UNIQUE,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  last_sign_in_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);
