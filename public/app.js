@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const button=document.getElementById('demo-login');const message=document.getElementById('message');button.addEventListener('click',()=>{message.textContent='This is a visual-only demo. Authentication is not connected and no credentials are collected.';});});

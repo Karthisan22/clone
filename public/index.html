@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Social Login UI Demo</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="layout">
+  <section class="phone-art" aria-label="Social photo sharing preview">
+    <div class="phone phone-back"><div class="screen"><div class="mini-top"></div><div class="photo photo-one"></div><div class="mini-lines"></div></div></div>
+    <div class="phone phone-front"><div class="screen"><div class="mini-top"></div><div class="photo photo-two"></div><div class="mini-lines"></div><div class="mini-photo"></div></div></div>
+    <div class="sparkle">✦</div>
+  </section>
+  <section class="auth-column">
+    <div class="login-card">
+      <div class="brand" aria-label="Socially demo">socially</div>
+      <p class="demo-note">A social-media login design demo</p>
+      <div class="field-look">Phone number, username, or email</div>
+      <div class="field-look">Password</div>
+      <button class="demo-button" id="demo-login" type="button">Log in</button>
+      <div class="or"><span></span><b>OR</b><span></span></div>
+      <a class="facebook" href="#demo-info">◎ &nbsp; Continue with a demo account</a>
+      <a class="forgot" href="#demo-info">Forgot password?</a>
+      <p id="message" role="status" aria-live="polite"></p>
+    </div>
+    <div class="signup-card">Don't have an account? <a href="#demo-info">Sign up</a></div>
+    <p class="demo-info" id="demo-info">Practice interface only. Do not enter real social-media credentials. This demo does not send or save form values.</p>
+    <footer>About · Help · Privacy · Terms</footer>
+  </section>
+</main>
+<script src="/app.js" defer></script>
+</body>
+</html>
