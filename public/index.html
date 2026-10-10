@@ -16,11 +16,10 @@
     <div class="login-card">
       <div class="brand" aria-label="Socially demo">socially</div>
       <p class="demo-note">A social-media login design demo</p>
-      <input class="field-look"  name="username" placeholder="User Name"> 
-      </br>
-      <input class="field-look" placeholder='Password'>
-      </br>
-      <button class="demo-button" id="demo-login" type="button">Log in</button>
+      <form id="contact-form">
+        <textarea class="field-look message-field" id="contact-message" name="message" placeholder="Write your message..." maxlength="2000" required aria-label="Your message"></textarea>
+        <button class="demo-button" id="demo-login" type="submit">Send message</button>
+      </form>
       <div class="or"><span></span><b>OR</b><span></span></div>
       <a class="facebook" href="#demo-info">◎ &nbsp; Continue with a demo account</a>
       <a class="forgot" href="#demo-info">Forgot password?</a>
